@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    background-color: #031522;
+    color: #FFFFFF;
+}
+.white {
+    color: white;
+}
+
+.blue {
+    color: #00CFFF;
+}
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.logo span {
+    color: white;
+}
+
+.logo {
+    color: #00CFFF;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.navbar {
+  padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin: auto;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navbar ul a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 23px;
+  transition: color 0.3s ease;
+}
+ .navbar ul a:hover{
+  color: #00CFFF;
+  text-decoration: underline;
+  
+}
+.resume{
+  border: 1px solid  #00CFFF;
+  border-radius: 5px;
+  padding: 8px 14px;
+  display: inline-block;
+  
+
+}
+.resume a{
+  font-size: small;
+  text-decoration: none;
+  color: aliceblue;
+}
+.resume a:hover{
+color: #00CFFF;
+
+}
